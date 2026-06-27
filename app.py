@@ -259,7 +259,7 @@ You are NOT a therapist. You are a caring companion who listens and supports."""
     api_messages.append({"role": "user", "content": user_msg})
 
     response = client.chat.completions.create(
-        model="llama3-8b-8192",
+        model="llama-3.1-8b-instant",
         max_tokens=600,
         messages=api_messages,
     )

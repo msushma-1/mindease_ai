@@ -32,23 +32,23 @@ An AI-powered mental wellness chatbot for students and anyone navigating stress,
 ## 🛠 Tech Stack
 
 - **Frontend**: Streamlit
-- **AI**: Anthropic Claude API (claude-sonnet-4-6)
+- **AI**: Groq API 
 - **Language**: Python 3.10+
-- **Deployment**: Streamlit Cloud (free)
+- **Deployment**: Streamlit Cloud 
 
 ---
 
 ## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mindease
-cd mindease
+git clone https://github.com/YOUR_USERNAME/mindease-ai
+cd mindease-ai
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY="your-key-here"
+export GROQ_API_KEY="your-key-here"
 streamlit run app.py
 ```
 
-Get your free API key at: https://console.anthropic.com
+Get your free API key at: https://console.groq.com
 
 ---
 
@@ -57,7 +57,7 @@ Get your free API key at: https://console.anthropic.com
 1. Push to GitHub
 2. Go to share.streamlit.io
 3. Connect your repo
-4. Add `ANTHROPIC_API_KEY` in Secrets
+4. Add `GROQ_API_KEY` in Secrets
 5. Deploy — live in 2 minutes
 
 ---
