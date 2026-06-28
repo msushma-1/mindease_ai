@@ -112,14 +112,6 @@ html, body, [data-testid="stAppViewContainer"] {
 }
 hr { border-color: var(--border) !important; }
 
-/* Fix audio player to full width */
-audio {
-    width: 100% !important;
-    border-radius: 10px !important;
-}
-[data-testid="stAudio"] {
-    width: 100% !important;
-}
 </style>
 """, unsafe_allow_html=True)
 
